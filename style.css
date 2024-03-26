@@ -1,0 +1,101 @@
+FORMULÁRIO.CSS
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family:sans-serif;
+    color:black;
+    text-align: center;
+}
+
+#subtitulo{
+    font-family:sans-serif;
+    color:black;
+    text-align: center;
+}
+
+
+body{
+    font-family:sans-serif;
+    font-size: 1em;
+    color:black;
+    justify-content: center;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:black;
+    display:block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+
+.image-field{  
+    width: 30%;
+    text-align: center;
+}
+
+.input-arquivo{
+    padding: 10px;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+    padding: 0.2em;
+    border: 1px solid rgb(0, 183, 255);
+    box-shadow: 2px 2px 2px rgba(red, green, blue, alpha);
+    display:block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background:  aqua;
+}
+
+.botao{
+    font-size:1.2em;
+    background: rgb(0, 174, 255); 
+    border:0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6;
+    box-shadow: 2px 2px 2px rgba(red, green, blue, alpha);
+    text-shadow: 1px 1px 1px rgba(red, green, blue, alpha);
+    position: absolute;
+    top:90%;
+    left:50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.botao:hover {
+    background: rgb(0, 195, 255);
+    box-shadow: inset 2px 2px 2px rgba(red, green, blue, alpha);
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block;
+}
